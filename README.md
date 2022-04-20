@@ -1,6 +1,6 @@
 # Final Project
 
-## Introduction
+## Distinctiveness and Complexity
 
 My final project is is a website called studemy which allows students all over the world to study study with each other by making them able to ask a question which they have a bug in while studing, also making them able to create a room which they can make a chat about specific topic or something they want to learn more about and also searching about rooms or questions by the user's name
 
