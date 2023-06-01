@@ -1,111 +1,97 @@
-# Final Project
+# Distinctiveness and Complexity
 
-## Requirements
+### the purpose of the project
+Everyone experiences difficulties studying at one time or another, and overcoming these challenges is part of the learning process, particularly when there is a large workload. There are many ways to solve these difficulties, either by searching on the web or YouTube videos, but sometimes these methods do not work. Which makes the person who faces this problem resort to the way of talking with an expert in this field, which will cost him some money, and from here I started thinking about creating a project that allows all people to ask any question or any problem they face in any field, and they will be answered by some of the people that have this problem before, so that this project is available to everyone for free without any fees.
 
-The final project is your opportunity to design and implement a dynamic website of your own. So long as your final project draws upon this course’s lessons, the nature of your website will be entirely up to you, albeit subject to the staff’s approval.
+#### Technologies i used in this project:
+* django as python back-end framework that helped me alot in developing this project To make it become the final form it is now.
+* HTML, CSS, and JavaScript languages were used to design the front-end section of the project.
+* Bootstrap and Fontawesome libraries were used to design the front-end section of the project.
 
-In this project, you are asked to build a web application of your own. The nature of the application is up to you, subject to a few requirements:
+### challenges i faced
+I faced many problems in creating this project, including the fact that I was studying at the university and based on my own creation of this project. I also encountered problems in coordinating the database and some problems related to programming that had been solved with seriousness and diligence.
 
-Your web application must utilize at least two of Python, JavaScript, and SQL.
-Your web application must be mobile-responsive.
-In README.md, include a short writeup describing your project, what’s contained in each file you created or modified, and (optionally) any other additional information the staff should know about your project.
-If you’ve added any Python packages that need to be installed in order to run your web application, be sure to add them to requirements.txt!
-Beyond these requirements, the design, look, and feel of the website are up to you!
-
-## Distinctiveness and Complexity
-
-My final project is a website called studemy which allows people asks a questions about somethimg they have a bug with this may be done in other websites but my website also have the feature to make chatting rooms and talk about speciefic topic,this project made by using django as a backend framework and JavaScript and HTML and CSS as a frontend programming languages also bootstrap nad fontawesome as frontend library. all of the inforamtion are stored in a database (SQLite by default).
-
-my website is mobile responsive.
-
-## Documentation
-
-In this project i used all the techniques we had learnt in this course
+#### Explaining the project:
+Sudemy is a website that allows people to ask questions about any topic they have a bug, in which the user can ask other users about the problem he faces by sharing a post on the feed page where the users can see this post and answer his question, also studemy offers chatting rooms, which is very useful, which is helpful for a group project that users can make with their friends or with other users, the user can also interact with posts and book mark the post and also can delete it. I made more than one function to handle errors that may be made by the user while using this website.
 
 ### How to use ths project:
 
-* Firstlty, create an account then you  will be redicted to the main page
 
-* On the top of the main page there is a navbar contains 3 tabs :
-    * Rooms : will hide the div is appearing to you by javascript (this is inthe code) and will show the div which contains the Rooms div which contains the room posts which contains :
-        * A box which contains a button to Create a new room when you click on this button a form will appear to you asking you for the name of the room and the description of the room and also the topic which you want to talk about
+* First, create an account, and then you will be taken to the main page.
 
-    * Feeds : will show the question and also you can search for any question you want
+* On the top of the main page, there is a navbar that contains three tabs:
+    * Rooms: shows the div that contains the Rooms div, which contains the room posts, which contain:
+    * A box that contains a button to create a new room When you click on this button, a form will appear asking you for room name, the description of the room, and the topic you want to talk about, and when you create the room you will be redirected to this room's chatting box and this room will be added to your joined rooms.
 
-    * Finally the logout icon which will make you logout
+    * Feeds: will show the question, and you can also search for any question you want, and interact with the post, also you can comment on this post, you can save it and delete it.
 
+    * Contact us : will show a page where the user can send a message telling his experience with the site
 
-
+Finally, the logout icon will make you logout.
 
 ## Files
 
-*  project : the main directory for the app
+* project: the main directory for the app
 
-    * project/templates : contains all the appication pages
-        * project/templates/main :
-            * project/templates/main/index.html : contains the html of the first page which contains the website info and its features and more info about the features, I made this page responsive with desktop and tablet and mobile by css media query also i used javascript to switch between signin and sign up, also i used fontawesome icons to add some pics, lastely i used backend to make the user able to login to the site.
+    * project/templates: contains all the application pages
+    * project/templates/main :
+        * project/templates/main/index.html: contains the html of the first page, which contains the website info and its features, and more info about the features. I made this page responsive with desktop, tablet, and mobile by css media queries; I also used javascript to switch between signin and sign up; I also used Font Awesome icons to add some pictures; and I used the backend to make the user able to login to the site.
 
-            * project/templates/main/main.html : contains the html and the javascript of the second page which is the page which the user can see all the questions which asked by the other students also the rooms which had been made by the students registered in the website , inthis page i used javascript to switch between the posts and rooms divs by the recieved value of type (which is by default "posts")
+        * project/templates/main/main.html: contains the html and the javascript of the second page, which is the page on which the user can see all the questions that have been asked by the other students and the rooms that have been made by the students registered on the website. In this page, I used javascript to switch between the posts and rooms divs by the received value of type (which is by default "posts").
 
-                * search section : this section simply used to search about the rooms /posts by the users's name.
+            * search section: this section is simply used to search for rooms or posts by the users' names.
 
-                * posts section : this section shows the questions of the users also it contains a section which the user can ask a question by writing the question in the text area and then clicking post
+            * Posts section: this section shows the questions of the users and also contains a section in which the user can ask a question by writing the question in the text area and then post.
 
-                * rooms section : in this section you can see the rooms that made by the users also by clicking on the button "create room" at the top of this div a div will be shown which asks you to type the  name and the room topic and small description about the room, another feature that you can join any room you want and send a message about the room topic (i made this by using javascipt api fetch).
+            * rooms section: in this section you can see the rooms that were made by the users. Also, by clicking on the button "create room" at the top of this div, a div will be shown that asks you to type the name, the room topic, and a small description about the room. Another feature is that you can join any room you want and send a message about the room topic (I made this by using the JavaScript API fetch).
+
+    * project/views.py: contains all the functions that are used in the website.
+
+        * validate_password: validate that the first password is equal to the second password.
+
+        * index: process the login requests that come from the user by taking the username either from the username field in the first form or the second (I made two forms, one for desktop view and the second one for mobile view).
+
+        * main: processes all the activities that come from the main page (searching, loading the posts and rooms divs, posting messages to the rooms, handling the paginator in the rooms div).
 
 
-    * project/views.py : contains all the functions which used in the website
+    * project/models.py contains the 5 models that I used in this
 
-        * CustomSerializer : i used this class to custemize the Serializer to be able to serialize the forgien key with the speciefic field
+        * User: I did not edit anything in the user model.
 
-        * validate_password : validate that the first password is equal to the second password
+        * Post: model for posts
+        * Room: model for rooms
+        * Topic: model for the room topics
+        * Comment: model for commenting
+        * Interactions: models for the reacting with the posts
+        * Chat: model for the room chats
 
-        * index : procces the login attempets that comes from the user by taking the username either from username field in the first form or the second (i made two forms one for desktop view and the second one is for the mobile view)
+    * project/urls.py: contains all application's URLs
 
-        * main : procces all the activities that comes from the main page (searching, loads the posts and rooms divs, posts messages to the rooms ,handels the paginator in the rooms div)
+* static: contains all the CSS files for the project and also the javascript
 
-    * project/models.py : contains the 5 models which i used in this used
+    * static/page1.js: contains the javascript for the first page.
 
-        * User : I didnot edit anything in the User model
-
-        * Post : model for posts
-        * Room : model for rooms
-        * Topic : model for the room topics
-        * Chat :  model for the room chats
-
-    * project/urls.py : contains all appication Urls
-
-* static : contains all the css files for the project and also the
-javascript
-
-    * static/page1.js : contains the javascript for the first page.
-
-    * static/page1.css : contains the css of the first page
-    * static/page2.css : contains the css of the second page which is the main page
+    * static/page1.css: contains the CSS of the first page.
+    * static/page2.css: contains the CSS of the second page, which is the main page.
     * static/imgs :
-        * static/imgs/background.jpg : the image which used in the page1 as a background
+        * static/imgs/background.jpg: the image used
 
 ## Installation
 
-1. Cake and apply the migrations by running
+1. Make and apply the migrations by running
 
-    ``` bash
-    python manage.py makemigrations
+    ``` bash
+    Python manage.py makemigrations
+    python manage.py migrate
+    ```
+1. Create a superuser.
 
-    python manage.py migrate
-    ```
-1. Create a superuser
+    ```bash
+    python manage.py  createsuperuser
+    ```
+1. Run the server.
 
-    ```bash
-    python manage.py createsuperuser
-    ```
-1. Run the server
-
-    ```bash
-    python manage.py runserver
-    ```
-1. Finally, goto the website and register
-
-## Additional info
-
-I used javascript inside the html file to benfit from the django tags
+    ```bash
+    Python manage.py runserver
+    ```
+1. Finally, go to the website and register.
