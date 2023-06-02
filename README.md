@@ -1,33 +1,22 @@
-# Distinctiveness and Complexity
-I believe my project satisfies the criteria of distinctiveness and complexity because this project is to help everyone solve their studying problems. Anyone can use it for free. Some sites offer anyone to ask questions about any topic, but they don't have the feature of creating a room for any topic, but my project have.
+# Studemy
 
-#### Explaining the project:
+## youtube vedio: https://www.youtube.com/watch?v=lerm1ku58AA&feature=youtu.be
+
+## Introduction
+### Purpose
+Everyone experiences difficulties studying at one time or another, and overcoming these challenges is part of the learning process, particularly when there is a large workload. There are many ways to solve these difficulties, either by searching on the web or YouTube videos, but sometimes these methods do not work. Which makes the person who faces this problem resort to the way of talking with an expert in this field, which will cost him some money, and from here I started thinking about creating a project that allows all people to ask any question or any problem they face in any field, and they will be answered by some of the people that have this problem before, so that this project is available to everyone for free without any fees.
+### Explaining the project:
 Sudemy is a website that allows people to ask questions about any topic they have a bug, in which the user can ask other users about the problem he faces by sharing a post on the feed page where the users can see this post and answer his question, also studemy offers chatting rooms, which is very useful, which is helpful for a group project that users can make with their friends or with other users, the user can also interact with posts and book mark the post and also can delete it. I made more than one function to handle errors that may be made by the user while using this website.
 
-#### Technologies i used in this project:
+## Distinctiveness and Complexity
+I believe my project satisfies the criteria of distinctiveness and complexity because this project is to help everyone solve their studying problems. Anyone can use it for free. Some sites offer anyone to ask questions about any topic, but they don't have the feature of creating a room for any topic, but my project have.I faced many problems in creating this project, including the fact that I was studying at the university and based on my own creation of this project. I also encountered problems in coordinating the database and some problems related to programming that had been solved with seriousness and diligence..
+
+
+#### Technologies:
 * django as python back-end framework that helped me alot in developing this project To make it become the final form it is now.
 * HTML, CSS, and JavaScript languages were used to design the front-end section of the project.
 * Bootstrap and Fontawesome libraries were used to design the front-end section of the project.
 
-### the purpose of the project
-Everyone experiences difficulties studying at one time or another, and overcoming these challenges is part of the learning process, particularly when there is a large workload. There are many ways to solve these difficulties, either by searching on the web or YouTube videos, but sometimes these methods do not work. Which makes the person who faces this problem resort to the way of talking with an expert in this field, which will cost him some money, and from here I started thinking about creating a project that allows all people to ask any question or any problem they face in any field, and they will be answered by some of the people that have this problem before, so that this project is available to everyone for free without any fees.
-
-### challenges i faced
-I faced many problems in creating this project, including the fact that I was studying at the university and based on my own creation of this project. I also encountered problems in coordinating the database and some problems related to programming that had been solved with seriousness and diligence.
-
-### How to use ths project:
-
-* First, create an account, and then you will be taken to the main page.
-
-* On the top of the main page, there is a navbar that contains three tabs:
-    * Rooms: shows the div that contains the Rooms div, which contains the room posts, which contain:
-    * A box that contains a button to create a new room When you click on this button, a form will appear asking you for room name, the description of the room, and the topic you want to talk about, and when you create the room you will be redirected to this room's chatting box and this room will be added to your joined rooms.
-
-    * Feeds: will show the question, and you can also search for any question you want, and interact with the post, also you can comment on this post, you can save it and delete it.
-
-    * Contact us : will show a page where the user can send a message telling his experience with the site
-
-Finally, the logout icon will make you logout.
 
 ## Files
 
@@ -53,18 +42,6 @@ Finally, the logout icon will make you logout.
 
         * main: processes all the activities that come from the main page (searching, loading the posts and rooms divs, posting messages to the rooms, handling the paginator in the rooms div).
 
-
-    * project/models.py contains the 5 models that I used in this
-
-        * User: I did not edit anything in the user model.
-
-        * Post: model for posts
-        * Room: model for rooms
-        * Topic: model for the room topics
-        * Comment: model for commenting
-        * Interactions: models for the reacting with the posts
-        * Chat: model for the room chats
-
     * project/urls.py: contains all application's URLs
 
 * static: contains all the CSS files for the project and also the javascript
@@ -76,22 +53,52 @@ Finally, the logout icon will make you logout.
     * static/imgs :
         * static/imgs/background.jpg: the image used
 
+
+## Models
+I used 5 Models:
+1. User: I did not edit anything in the user model.
+1. Post: model for posts
+1. Room: model for rooms
+1. Topic: model for the room topics
+1. Comment: model for commenting
+1. Interactions: models for the reacting with the posts
+1. Chat: model for the room chats
+
 ## Installation
+
+1. Create virtual env and install requirements
+
+``` bash
+    py -m venv env
+
+    pip install -r requirements.txt
+```
 
 1. Make and apply the migrations by running
 
     ``` bash
     Python manage.py makemigrations
-    python manage.py migrate
+
+    Python manage.py migrate
     ```
 1. Create a superuser.
 
-    ```bash
-    python manage.py  createsuperuser
+    ``` bash
+    Python manage.py  createsuperuser
     ```
 1. Run the server.
 
-    ```bash
+    ``` bash
     Python manage.py runserver
     ```
-1. Finally, go to the website and register.
+1. create account, and then you will be taken to the main page.
+
+1. On the top of the main page, there is a navbar that contains three tabs:
+    * Rooms: shows the div that contains the Rooms div, which contains the room posts, which contain:
+    * A box that contains a button to create a new room When you click on this button, a form will appear asking you for room name, the description of the room, and the topic you want to talk about, and when you create the room you will be redirected to this room's chatting box and this room will be added to your joined rooms.
+
+    * Feeds: will show the question, and you can also search for any question you want, and interact with the post, also you can comment on this post, you can save it and delete it.
+
+    * Contact us : will show a page where the user can send a message telling his experience with the site
+
+1. Finally, the logout icon will make you logout.
