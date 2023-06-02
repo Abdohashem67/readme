@@ -1,5 +1,5 @@
 # Distinctiveness and Complexity
-I believe my project satisfies the criteria of distinctiveness and complexity because this project is to help everyone solve their studying problems. Anyone can use it for free. Some sites offer anyone to ask questions about any topic, but they don't have the feature of creating a room for any topic that exists on my site.
+I believe my project satisfies the criteria of distinctiveness and complexity because this project is to help everyone solve their studying problems. Anyone can use it for free. Some sites offer anyone to ask questions about any topic, but they don't have the feature of creating a room for any topic, but my project have.
 
 #### Explaining the project:
 Sudemy is a website that allows people to ask questions about any topic they have a bug, in which the user can ask other users about the problem he faces by sharing a post on the feed page where the users can see this post and answer his question, also studemy offers chatting rooms, which is very useful, which is helpful for a group project that users can make with their friends or with other users, the user can also interact with posts and book mark the post and also can delete it. I made more than one function to handle errors that may be made by the user while using this website.
