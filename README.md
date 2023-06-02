@@ -1,21 +1,21 @@
 # Distinctiveness and Complexity
+I believe my project satisfies the Distinctiveness and Complexity because anyone can use this project for free, many sites that offers anyone to ask a question doesnot have the feature of making a room about any topic, This project is to help everyone solve their studying problems.
 
-### the purpose of the project
-Everyone experiences difficulties studying at one time or another, and overcoming these challenges is part of the learning process, particularly when there is a large workload. There are many ways to solve these difficulties, either by searching on the web or YouTube videos, but sometimes these methods do not work. Which makes the person who faces this problem resort to the way of talking with an expert in this field, which will cost him some money, and from here I started thinking about creating a project that allows all people to ask any question or any problem they face in any field, and they will be answered by some of the people that have this problem before, so that this project is available to everyone for free without any fees.
+#### Explaining the project:
+Sudemy is a website that allows people to ask questions about any topic they have a bug, in which the user can ask other users about the problem he faces by sharing a post on the feed page where the users can see this post and answer his question, also studemy offers chatting rooms, which is very useful, which is helpful for a group project that users can make with their friends or with other users, the user can also interact with posts and book mark the post and also can delete it. I made more than one function to handle errors that may be made by the user while using this website.
 
 #### Technologies i used in this project:
 * django as python back-end framework that helped me alot in developing this project To make it become the final form it is now.
 * HTML, CSS, and JavaScript languages were used to design the front-end section of the project.
 * Bootstrap and Fontawesome libraries were used to design the front-end section of the project.
 
+### the purpose of the project
+Everyone experiences difficulties studying at one time or another, and overcoming these challenges is part of the learning process, particularly when there is a large workload. There are many ways to solve these difficulties, either by searching on the web or YouTube videos, but sometimes these methods do not work. Which makes the person who faces this problem resort to the way of talking with an expert in this field, which will cost him some money, and from here I started thinking about creating a project that allows all people to ask any question or any problem they face in any field, and they will be answered by some of the people that have this problem before, so that this project is available to everyone for free without any fees.
+
 ### challenges i faced
 I faced many problems in creating this project, including the fact that I was studying at the university and based on my own creation of this project. I also encountered problems in coordinating the database and some problems related to programming that had been solved with seriousness and diligence.
 
-#### Explaining the project:
-Sudemy is a website that allows people to ask questions about any topic they have a bug, in which the user can ask other users about the problem he faces by sharing a post on the feed page where the users can see this post and answer his question, also studemy offers chatting rooms, which is very useful, which is helpful for a group project that users can make with their friends or with other users, the user can also interact with posts and book mark the post and also can delete it. I made more than one function to handle errors that may be made by the user while using this website.
-
 ### How to use ths project:
-
 
 * First, create an account, and then you will be taken to the main page.
 
