@@ -82,9 +82,8 @@ I used 5 Models:
         Python manage.py migrate
 ```
 1. Create a superuser.
-
 ``` bash
-        Python manage.py  createsuperuser
+       Python manage.py  createsuperuser
 ```
 1. Run the server.
 
