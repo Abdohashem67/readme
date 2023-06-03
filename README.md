@@ -76,21 +76,21 @@ I used 5 Models:
 
 1. Make and apply the migrations by running
 
-    ``` bash
+``` bash
         Python manage.py makemigrations
 
         Python manage.py migrate
-    ```
+```
 1. Create a superuser.
 
-    ``` bash
+``` bash
         Python manage.py  createsuperuser
-    ```
+```
 1. Run the server.
 
-    ``` bash
+``` bash
         Python manage.py runserver
-    ```
+```
 1. create account, and then you will be taken to the main page.
 
 1. On the top of the main page, there is a navbar that contains three tabs:
