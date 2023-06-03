@@ -77,19 +77,19 @@ I used 5 Models:
 1. Make and apply the migrations by running
 
     ``` bash
-    Python manage.py makemigrations
+        Python manage.py makemigrations
 
-    Python manage.py migrate
+        Python manage.py migrate
     ```
 1. Create a superuser.
 
     ``` bash
-    Python manage.py  createsuperuser
+        Python manage.py  createsuperuser
     ```
 1. Run the server.
 
     ``` bash
-    Python manage.py runserver
+        Python manage.py runserver
     ```
 1. create account, and then you will be taken to the main page.
 
